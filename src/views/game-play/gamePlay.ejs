@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="/css/bootstrap-reboot.min.css" />
+  <link rel="stylesheet" href="/css/bootstrap.min.css" />
+  <link rel="stylesheet" href="/css/game-play.css" />
+
+  <title>Rock Paper Scissors Game Trial</title>
+</head>
+
+<body>
+  <nav class="navbar navbar-light">
+    <div class="container-fluid d-flex justify-content-start">
+      <a class="back m-4" href="/">&lt;</a>
+      <a class="navbar-title me-4" href="#">
+        <img src="/img/game-play/logo.png" alt="" class="logo d-inline-block align-text-center me-4" />
+        ROCK PAPER SCISSOR
+      </a>
+    </div>
+  </nav>
+  <div class="game-pad g-4">
+    <div class="container">
+      <div class="row d-flex justify-content-center align-items-center">
+        <div class="col-md">
+          <div class="player-hands d-flex flex-column">
+
+            <img id="rock" src="/img/game-play/rock.png"
+              class="img-fluid player-rock player-hand hands ms-auto me-auto mb-4 p-4" />
+            <img id="paper" src="/img/game-play/paper.png"
+              class="img-fluid player-paper player-hand hands ms-auto me-auto mb-4 p-4" />
+            <img id="scissor" src="/img/game-play/scissor.png"
+              class="img-fluid player-scissors player-hand hands ms-auto me-auto mb-4 p-4" />
+          </div>
+        </div>
+        <div class="col-md">
+          <div class="">
+            <h2 id="msg" class="versus text-center">VS</h2>b
+          </div>
+        </div>
+        <div class="col-md">
+          <div class="comp-hands d-flex flex-column">
+            <img id="comp-rock" src="/img/game-play/rock.png"
+              class="img-fluid hands comp-rock comp-hand ms-auto me-auto mb-4 p-4" />
+            <img id="comp-paper" src="/img/game-play/paper.png"
+              class="img-fluid hands comp-hand comp-paper ms-auto me-auto mb-4 p-4" />
+            <img id="comp-scissor" src="/img/game-play/scissor.png"
+              class="img-fluid comp-hand hands comp-scissors ms-auto me-auto mb-4 p-4" />
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col d-flex justify-content-center">
+          <img id="refresh" src="/img/game-play/refresh.png" class="refresh" alt="" />
+        </div>
+      </div>
+    </div>
+  </div>
+  <script src="/js/main.js"></script>
+  <script src="/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>

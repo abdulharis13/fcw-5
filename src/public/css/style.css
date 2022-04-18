@@ -1,0 +1,55 @@
+nav {
+  background-color: rgba(0, 0, 0, 0.796);
+  font-size: 16px;
+  display: flex;
+  justify-content: space-between;
+  padding: 5px 10%;
+}
+#content {
+  background: url("../img/bg/main-bg.jpg") no-repeat center center;
+  background-size: cover;
+  padding-top: 20%;
+  padding-bottom: 20%;
+  color: white;
+}
+#game {
+  background: url("../img/bg/the-games-bg.jpg") no-repeat center center;
+  background-size: cover;
+  padding-top: 20%;
+  padding-bottom: 20%;
+  color: white;
+}
+#feature {
+  background: url("../img/bg/features.jpg") no-repeat center center;
+  background-size: cover;
+  padding-top: 20%;
+  padding-bottom: 20%;
+  color: white;
+}
+#requirements {
+  background: url("../img/bg/requirements.png") no-repeat center center;
+  background-size: cover;
+  padding: 40px 0;
+  width: 100vw;
+  height: 100vh;
+  color: white;
+}
+#top-score {
+  background: url("../img/bg/the-games-bg.jpg") no-repeat center center;
+  background-size: cover;
+  padding-top: 20%;
+  padding-bottom: 20%;
+  color: white;
+}
+#newslater {
+  background: url("../img/bg/top-score-bg.png") no-repeat center center;
+  background-size: cover;
+  padding-top: 20%;
+  padding-bottom: 20%;
+  color: white;
+}
+
+.carosel-item {
+  width: 50px;
+  height: 20px;
+}
